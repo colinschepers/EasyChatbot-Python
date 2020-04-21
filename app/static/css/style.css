@@ -1,0 +1,148 @@
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+body, h1, h2, h3 {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+.navbar-default {
+    background-color: #005F6A;
+}
+
+a {
+    color: #005F6A;
+}
+
+a:hover {
+    color: #005762;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a, .footer-nav>li, .footer-nav>li>a, p.copyright {
+    color: #F8F8F8;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-nav>li>a:hover, .footer-nav>li>a:hover {
+    color: #C1C1C1;
+}
+
+.btn-default {
+    border-color: #005F6A;
+    color: #F8F8F8;
+    background-color: #005F6A;
+}
+
+.btn-default:visited, .btn-default:focus, .btn-default:hover, .btn-default:active:focus {
+    color: #F8F8F8;
+    background-color: #005762;
+}
+
+.alert-info {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.content-section {
+    padding: 50px 0;
+    border-top: 1px solid #F8F8F8;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #F8F8F8;
+    border-bottom: 1px solid #333;
+}
+
+.intro-header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/intro-bg.jpg) repeat center center;
+    background-size: auto;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+.dashboard {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #000000;
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #005F6A;
+    border-top: 1px solid;
+    border-color: #FFFFFF;
+}
+
+.footer, .push {
+    clear: both;
+    height: 4em;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.topnav {
+    font-size: 14px;
+}
+
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -4em;
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    height: 70%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-center {
+    text-align: center;
+}
